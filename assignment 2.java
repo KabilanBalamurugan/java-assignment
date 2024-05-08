@@ -25,7 +25,7 @@ class student1
 }
 
 
-public class aggregation {
+public class assignment2 {
     public static void main(String[] args) 
     {
         address ad1= new address(1, "LPN Street", "Madurai", 625007);
