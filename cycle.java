@@ -20,6 +20,6 @@ class MotorCycle extends BiCycle{
 }
 class cycle{
 	public static void main(String []args){
-		MotorCycle M=new MotorCycle();
+		new MotorCycle();
 	}
 }
