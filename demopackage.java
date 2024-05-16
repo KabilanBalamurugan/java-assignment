@@ -1,4 +1,4 @@
-
+import package.studentdata;
 class demopack extends studentdata {
     demopack(String city,String st_name,int plotno,int pincode ){
         super(city,st_name,plotno,pincode);
