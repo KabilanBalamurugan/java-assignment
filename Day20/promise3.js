@@ -1,20 +1,13 @@
 new Promise((resolve,reject)=>
     {
         let userInput=prompt("ENTER True or False= ")
-        userInput.toLowerCase()==='true'?payment=true:payment=false
+        userInput.toLowerCase()==='true'?payment=true:payment=false   //Ternary Operator
         payment?resolve():reject()
 
     }).then(()=>
     {
-        console.log("Success")
+        console.log("Success");
     }).catch(()=>
     {   
-        if(payment===false)
-            {
-                console.log("Rejected")
-            }
-        else
-        {
-            console.log("Invalid")
-        }
+        console.log("Failed");
     })
